@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.btn {
+    width: 250px;
+    font-Family: 'Roboto Condensed', Sans-Serif;
+    font-Size: 35px; 
+    background-color: #ad9d4d;
+    color: #000000;  
+    display: block;
+    padding: 30px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    box-shadow: inset 0 1px;
+}
